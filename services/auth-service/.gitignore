@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# dotenv
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Kafka logs (nếu chạy local)
+kafka-logs/
+zookeeper/
+
+# Docker (nếu dùng)
+*.local
+docker-compose.override.yml
+
+# MacOS
+.DS_Store
